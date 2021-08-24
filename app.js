@@ -4,7 +4,7 @@ const app = express();
 require('dotenv').config(); 
 const fetch = require("node-fetch");
 const path = require('path');
-app.use(express.static("../frontend"));
+app.use(express.static("./frontend"));
 /*app.get('/', (req, res) => {
 	res.sendFile(path.join(__dirname, 'pages/index.html'));
 });*/
